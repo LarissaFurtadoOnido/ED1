@@ -1,0 +1,20 @@
+/*Implemente um programa que funcione como um editor de texto básico.
+O usuário poderá digitar várias linhas de texto, uma após a outra. Cada linha deve ser armazenada em
+uma área de memória alocada dinamicamente. Os endereços das linhas devem ser guardados em um
+vetor de ponteiros, que será expandido sempre que necessário com a função realloc.
+Ao final da digitação (quando o usuário informar algum comando de parada, como "fim"), exiba o texto
+completo e libere toda a memória alocada*/
+
+#include <stdio.h>
+#include <stdlib.h>
+
+char **alocaVetor(int quantLinhas){
+    
+}
+
+int main()
+{
+    printf("Hello World");
+
+    return 0;
+}
