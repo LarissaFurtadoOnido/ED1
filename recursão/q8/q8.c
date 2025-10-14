@@ -18,7 +18,7 @@ int stringParenteses(char *parenteses, int aberto, int posicao){
 }
 
 int funcaoSecundaria(){
-    char parenteses[]="((()))(";
+    char parenteses[]="((()))";
     int result;
 
     result=stringParenteses(parenteses, 0, 0);
@@ -26,7 +26,7 @@ int funcaoSecundaria(){
     if(result == 0)
         printf("A expressão nao está bem formatada\n");
     else
-        printf("Supimpa");
+        printf("Supimpa!\n");
 
     return 0;
 }
